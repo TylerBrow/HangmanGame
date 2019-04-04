@@ -1,0 +1,60 @@
+Html {
+    box-sizing: border-box;
+}
+
+*,* ::after, *::before {
+    box-sizing: inherit;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    background-color: black;
+}
+#lives {
+    width: 200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+div {
+    font-size: 50px;
+    color: white;
+    border: 1px solid white;
+}
+#word-guess {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#word {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+#guess {
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 137px;
+}
+#guess input, button {
+    width: 100px;
+}
+#wrongguess {
+    width: 200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
